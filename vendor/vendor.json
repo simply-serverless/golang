@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "5nTobwDk400nAJQhewCguL87F9s=",
+			"path": "github.com/aws/aws-lambda-go",
+			"revision": "39a255e3a0cb3c6d7c4fdff428fdfa9cf80668e6",
+			"revisionTime": "2019-07-06T12:33:35Z"
+		},
+		{
+			"checksumSHA1": "WMRt5NGacaITs3JFQWJBIOLL1so=",
+			"path": "github.com/aws/aws-lambda-go/lambda",
+			"revision": "39a255e3a0cb3c6d7c4fdff428fdfa9cf80668e6",
+			"revisionTime": "2019-07-06T12:33:35Z"
+		},
+		{
+			"checksumSHA1": "R5cnUZPkb0MPZnK822yvu4qlTXQ=",
+			"path": "github.com/aws/aws-lambda-go/lambda/handlertrace",
+			"revision": "39a255e3a0cb3c6d7c4fdff428fdfa9cf80668e6",
+			"revisionTime": "2019-07-06T12:33:35Z"
+		},
+		{
+			"checksumSHA1": "d4ehJWLS4YsqFG825pgwdvKDB6A=",
+			"path": "github.com/aws/aws-lambda-go/lambda/messages",
+			"revision": "39a255e3a0cb3c6d7c4fdff428fdfa9cf80668e6",
+			"revisionTime": "2019-07-06T12:33:35Z"
+		},
+		{
+			"checksumSHA1": "f9MhOwQHveaPVWO6trwfqHa+W0M=",
+			"path": "github.com/aws/aws-lambda-go/lambdacontext",
+			"revision": "39a255e3a0cb3c6d7c4fdff428fdfa9cf80668e6",
+			"revisionTime": "2019-07-06T12:33:35Z"
+		}
+	],
+	"rootPath": "github.com/simply-serverless/golang/events"
+}
