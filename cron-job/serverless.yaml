@@ -1,11 +1,5 @@
 service: simply-serverless-cron-job
 
-package:
-  exclude:
-    - ./**
-  include:
-    - ./bin/**
-
 provider:
   name: aws
   runtime: go1.x
@@ -16,6 +10,12 @@ functions:
     handler: bin/cron-job
     events:
       - schedule:
-          rate: rate(10 minutes)
+          rate: rate(1 minute)
       - schedule:
-          rate: cron(0 18 * * ? *)
+          rate: cron(0 17 * * ? *)
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
